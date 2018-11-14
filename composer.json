@@ -1,0 +1,14 @@
+{
+    "name": "instamoney/instamoney-php-clients",
+    "description": "PHP clients for instamoney api",
+    "keywords": ["instamoney"],
+    "homepage": "https://github.com/instamoney/instamoney-php-clients",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+    	"psr-4": { "InstamoneyClient\\": "src/" }
+    }
+}
